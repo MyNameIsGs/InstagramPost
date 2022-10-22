@@ -1,0 +1,95 @@
+.profile-pic img {
+    width: 40px;
+    height: 40px;
+border-radius: 100px;
+
+}
+
+.profile-pic{padding: 5px;}
+
+body {
+    background: black;
+}
+
+.Post{
+    background: white;
+    width:370px;
+	height: 550px;
+margin: auto;
+margin-top: 50px;  }
+
+    .Post-header{
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom:-5px ;
+    }
+    
+    .Profile-Name{Display:table;
+    margin-top: 6px}
+
+    .Profile-Name strong{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
+    .Profile-Name p{font-size: x-small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -2px;
+}
+
+.Post-img img{width: 370px;
+height: 260px;}
+ 
+.profile-data {display: flex;
+    justify-content: space-between;}
+
+.Post-header i{
+    margin:auto;
+    margin-bottom: 5%;
+    margin-right: 4%;
+    height: fit-content;
+
+font-size: x-large;}
+
+.post-icons{
+    display: flex;
+    justify-content:space-between;
+    font-size: x-large;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.post-options i {
+    padding-right: 5px;
+}
+
+.post-description strong{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: -10px;
+    padding-left: 10px;
+    font-size:small;}
+
+.post-description p{
+    padding-right:10px;
+    padding-left: 10px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: small;}
+.post-comments {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.post-comments p{
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 20px;
+    font-size: small;}
+
+#comentarios  {position: relative;
+    bottom: 10px;
+    color: grey;}
+
+     {
+        border: 1px dashed red;
+        min-height: 10px;
+    }
